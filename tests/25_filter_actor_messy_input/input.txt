@@ -1,0 +1,10 @@
+1995 | Toy Story |   Tom Hanks
+1994 | Forrest Gump | Tom Hanks   
+
+2013 | Gravity | Sandra Bullock
+1995 | Toy Story | Tim Allen
+1999 | Toy Story 2 | Tom Hanks
+   
+2009 | Up | Ed Asner
+1994|Forrest Gump|Tom Hanks
+2010 | Inception | Tom Hardy

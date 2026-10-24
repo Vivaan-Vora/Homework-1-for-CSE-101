@@ -1,0 +1,13 @@
+1972 | The Godfather | Al Pacino
+1972 | The Godfather | James Caan
+1972 | The Godfather | Marlon Brando
+1974 | The Godfather Part II | Al Pacino
+1974 | The Godfather Part II | Robert De Niro
+1977 | Star Wars | Carrie Fisher
+1977 | Star Wars | Harrison Ford
+1977 | Star Wars | Mark Hamill
+1979 | Alien | Sigourney Weaver
+1981 | Raiders Of The Lost Ark | Harrison Ford
+1981 | Raiders Of The Lost Ark | Karen Allen
+1984 | Dune | Kyle MacLachlan
+1986 | Aliens | Sigourney Weaver

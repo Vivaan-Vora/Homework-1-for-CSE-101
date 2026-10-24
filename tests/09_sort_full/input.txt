@@ -1,0 +1,58 @@
+2008 | Iron Man | Gwyneth Paltrow
+1994 | The Lion King | Matthew Broderick
+1994 | Pulp Fiction | Uma Thurman
+2015 | Jurassic World | Bryce Dallas Howard
+2012 | The Avengers | Chris Evans
+2019 | The Lion King | Beyonce
+1999 | Toy Story 2 | Tim Allen
+1972 | The Godfather | Al Pacino
+1997 | Titanic | Kate Winslet
+2021 | Dune | Timothee Chalamet
+1994 | Little Women | Christian Bale
+2010 | Inception | Tom Hardy
+2013 | Gravity | Sandra Bullock
+2012 | The Avengers | Robert Downey Jr.
+1993 | Jurassic Park | Laura Dern
+2014 | Guardians Of The Galaxy | Chris Pratt
+2009 | Up In The Air | George Clooney
+2014 | Guardians Of The Galaxy | Zoe Saldana
+1974 | The Godfather Part II | Robert De Niro
+2008 | The Dark Knight | Heath Ledger
+1995 | Toy Story | Tim Allen
+1981 | Raiders Of The Lost Ark | Karen Allen
+1994 | The Lion King | James Earl Jones
+1994 | Little Women | Susan Sarandon
+2009 | Up In The Air | Vera Farmiga
+2010 | Inception | Leonardo DiCaprio
+2008 | Iron Man | Robert Downey Jr.
+2010 | Inception | Joseph Gordon-Levitt
+1979 | Alien | Sigourney Weaver
+2008 | The Dark Knight | Christian Bale
+2019 | Little Women | Florence Pugh
+1994 | Pulp Fiction | Samuel L. Jackson
+1972 | The Godfather | James Caan
+2013 | Gravity | George Clooney
+1995 | Toy Story | Tom Hanks
+2009 | Up | Ed Asner
+1972 | The Godfather | Marlon Brando
+1984 | Dune | Kyle MacLachlan
+2015 | Jurassic World | Chris Pratt
+1977 | Star Wars | Harrison Ford
+1993 | Jurassic Park | Jeff Goldblum
+2019 | Little Women | Saoirse Ronan
+2008 | Iron Man | Jeff Bridges
+1977 | Star Wars | Carrie Fisher
+1997 | Titanic | Leonardo DiCaprio
+1993 | Jurassic Park | Sam Neill
+2021 | Dune | Zendaya
+1994 | Forrest Gump | Tom Hanks
+1981 | Raiders Of The Lost Ark | Harrison Ford
+2019 | The Lion King | Donald Glover
+1977 | Star Wars | Mark Hamill
+1994 | Pulp Fiction | John Travolta
+2019 | Little Women | Timothee Chalamet
+2012 | The Avengers | Scarlett Johansson
+1994 | Little Women | Winona Ryder
+1986 | Aliens | Sigourney Weaver
+1974 | The Godfather Part II | Al Pacino
+1999 | Toy Story 2 | Tom Hanks
