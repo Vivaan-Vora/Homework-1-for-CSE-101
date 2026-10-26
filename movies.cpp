@@ -109,9 +109,16 @@ void removeDuplicates(MovieList& list) {
     }
 }
 
+// prints one movie as "Year | Title | Actor"
+static void printMovie(const Movie& m) {
+    std::cout << m.year << " | " << m.title << " | " << m.actor << "\n";
+}
+
+// prints every entry from head to tail
 void printList(const MovieList& list) {
-    // TODO
-    (void)list;
+    for (Node* cur = list.head; cur; cur = cur->next) {
+        printMovie(cur->data);
+    }
 }
 
 void printFiltered(const MovieList& list, int year, const std::string& actor,
