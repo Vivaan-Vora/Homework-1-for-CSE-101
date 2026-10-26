@@ -84,9 +84,29 @@ void sortList(MovieList& list) {
     list.tail = prev;
 }
 
+// true if all three fields match
+static bool sameMovie(const Movie& a, const Movie& b) {
+    return a.year == b.year && a.title == b.title && a.actor == b.actor;
+}
+
+// deletes nodes equal to the node before them (list must be sorted)
 void removeDuplicates(MovieList& list) {
-    // TODO
-    (void)list;
+    Node* cur = list.head;
+    while (cur && cur->next) {
+        Node* nxt = cur->next;
+        if (sameMovie(cur->data, nxt->data)) {
+            cur->next = nxt->next;
+            if (nxt->next) {
+                nxt->next->prev = cur;
+            } else {
+                list.tail = cur;
+            }
+            delete nxt;
+            list.size--;
+        } else {
+            cur = nxt;
+        }
+    }
 }
 
 void printList(const MovieList& list) {
