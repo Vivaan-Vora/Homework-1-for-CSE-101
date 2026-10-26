@@ -121,13 +121,22 @@ void printList(const MovieList& list) {
     }
 }
 
+// linear search printing entries that match every given filter
 void printFiltered(const MovieList& list, int year, const std::string& actor,
                    const std::string& title) {
-    // TODO
-    (void)list;
-    (void)year;
-    (void)actor;
-    (void)title;
+    bool found = false;
+    for (Node* cur = list.head; cur; cur = cur->next) {
+        const Movie& m = cur->data;
+        if ((year == 0 || m.year == year) &&
+            (actor.empty() || m.actor == actor) &&
+            (title.empty() || m.title == title)) {
+            printMovie(m);
+            found = true;
+        }
+    }
+    if (!found) {
+        std::cout << "No results\n";
+    }
 }
 
 void clearList(MovieList& list) {
