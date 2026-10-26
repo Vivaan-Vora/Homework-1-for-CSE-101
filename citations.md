@@ -1,7 +1,7 @@
 # Citations
 
-**Name:**
-**Student ID:**
+**Name:** Vivaan Vora
+**Student ID:** 2194895
 
 List every outside resource you used for this assignment: websites, videos, textbooks, people you
 discussed the assignment with, and AI tools. For each one, say briefly what you used it for. For an AI
@@ -17,3 +17,5 @@ Using a resource you do not cite is an academic integrity violation, even if the
 - ChatGPT: asked "what does std::string::npos mean?"
 -->
 
+- Google search, "what is a doubly linked list in C++?": to understand what a doubly linked list is.
+- Google search, "how to structure a doubly linked list and how is it supposed to look?": to see how the nodes and prev/next pointers are set up.
