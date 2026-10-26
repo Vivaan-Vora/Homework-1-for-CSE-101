@@ -139,7 +139,15 @@ void printFiltered(const MovieList& list, int year, const std::string& actor,
     }
 }
 
+// frees every node and resets the list to empty
 void clearList(MovieList& list) {
-    // TODO
-    (void)list;
+    Node* cur = list.head;
+    while (cur) {
+        Node* nxt = cur->next;
+        delete cur;
+        cur = nxt;
+    }
+    list.head = nullptr;
+    list.tail = nullptr;
+    list.size = 0;
 }
