@@ -39,9 +39,49 @@ bool comesBefore(const Movie& a, const Movie& b) {
     return a.actor < b.actor;
 }
 
+// merges two sorted chains (linked by next only) into one
+static Node* merge(Node* a, Node* b) {
+    Node dummy;
+    Node* end = &dummy;
+    while (a && b) {
+        if (comesBefore(b->data, a->data)) {
+            end->next = b;
+            b = b->next;
+        } else {
+            end->next = a;
+            a = a->next;
+        }
+        end = end->next;
+    }
+    end->next = a ? a : b;
+    return dummy.next;
+}
+
+// merge sorts a chain by splitting it in half with slow/fast pointers
+static Node* mergeSort(Node* head) {
+    if (!head || !head->next) {
+        return head;
+    }
+    Node* slow = head;
+    Node* fast = head->next;
+    while (fast && fast->next) {
+        slow = slow->next;
+        fast = fast->next->next;
+    }
+    Node* second = slow->next;
+    slow->next = nullptr;
+    return merge(mergeSort(head), mergeSort(second));
+}
+
+// sorts the list with merge sort, then fixes prev pointers and tail
 void sortList(MovieList& list) {
-    // TODO
-    (void)list;
+    list.head = mergeSort(list.head);
+    Node* prev = nullptr;
+    for (Node* cur = list.head; cur; cur = cur->next) {
+        cur->prev = prev;
+        prev = cur;
+    }
+    list.tail = prev;
 }
 
 void removeDuplicates(MovieList& list) {
