@@ -14,10 +14,18 @@
 #include <string>
 #include "movies.h"
 
+// adds a new node holding m at the tail
 void appendNode(MovieList& list, const Movie& m) {
-    // TODO
-    (void)list;
-    (void)m;
+    Node* n = new Node;
+    n->data = m;
+    n->prev = list.tail;
+    if (list.tail) {
+        list.tail->next = n;
+    } else {
+        list.head = n;
+    }
+    list.tail = n;
+    list.size++;
 }
 
 bool comesBefore(const Movie& a, const Movie& b) {
