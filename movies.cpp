@@ -28,11 +28,15 @@ void appendNode(MovieList& list, const Movie& m) {
     list.size++;
 }
 
+// true if a sorts before b: by year, then title, then actor
 bool comesBefore(const Movie& a, const Movie& b) {
-    // TODO
-    (void)a;
-    (void)b;
-    return false;
+    if (a.year != b.year) {
+        return a.year < b.year;
+    }
+    if (a.title != b.title) {
+        return a.title < b.title;
+    }
+    return a.actor < b.actor;
 }
 
 void sortList(MovieList& list) {
